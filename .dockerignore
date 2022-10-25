@@ -1,0 +1,19 @@
+# Hidden Git Directory
+.git
+.gitignore 
+#do not need to be added / copied into docker
+
+#DOcker
+.docker
+
+#Python
+#cache not needed in docker - pychache for our specific OS
+#All pychache file removed
+app/__pychache__/
+app/*/__pychache__/
+app/*/*/__pychache__/
+app/*/*/*/__pychache__/
+.env/
+.venv/
+venv/
+#remove virtual environment created locally
